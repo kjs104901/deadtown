@@ -1,0 +1,5 @@
+ds_map_destroy(global.inven_weapon)
+ds_map_destroy(global.inven_equip)
+ds_map_destroy(global.inven_use)
+ds_map_destroy(global.inven_etc)
+ds_map_destroy(global.inven_null)

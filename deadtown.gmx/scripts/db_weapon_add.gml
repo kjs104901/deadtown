@@ -1,0 +1,29 @@
+var item_name = argument0 // 이름
+var item_sprite = argument1 //아이템 스프라이트
+var item_get_sprite = argument2 // 착용 스프라이트
+var item_detail = argument3 //설명
+var item_kind = argument4 //종류(총 근접 등등)
+var item_damage = argument5 //데미지
+var item_speed = argument6 //연사속도
+var item_bound = argument7 //반통
+var item_ammo = argument8 //탄창
+var item_reload = argument9 //재장전시간
+var item_auto = argument10 //자동 공격
+var item_near_angle = argument11 //근접 무기 각도
+var item_near_speed = argument12 //근접 무기 속도
+
+global.weapon_db[global.weapon_db_target,0]=item_name
+global.weapon_db[global.weapon_db_target,1]=item_sprite
+global.weapon_db[global.weapon_db_target,2]=item_get_sprite
+global.weapon_db[global.weapon_db_target,3]=item_detail
+global.weapon_db[global.weapon_db_target,4]=item_kind
+global.weapon_db[global.weapon_db_target,5]=item_damage
+global.weapon_db[global.weapon_db_target,6]=item_speed
+global.weapon_db[global.weapon_db_target,7]=item_bound
+global.weapon_db[global.weapon_db_target,8]=item_ammo
+global.weapon_db[global.weapon_db_target,9]=item_reload
+global.weapon_db[global.weapon_db_target,10]=item_auto
+global.weapon_db[global.weapon_db_target,11]=item_near_angle
+global.weapon_db[global.weapon_db_target,12]=item_near_speed
+
+global.weapon_db_target += 1

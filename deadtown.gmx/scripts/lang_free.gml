@@ -1,0 +1,3 @@
+ds_map_destroy(global.language_map_korean)
+ds_map_destroy(global.language_map_chinese)
+ds_map_destroy(global.language_map_japanese)
